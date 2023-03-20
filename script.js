@@ -52,3 +52,9 @@ async function checkWeather(city) {
 searchBtn.addEventListener("click", () => {
   checkWeather(inputBox.value);
 });
+
+
+// I'm getting the weather for a city using openweathermap.org, but the resulting object contains the temperature in an unknown unit: "temp": 290.38
+
+// It looks like kelvin. Converting kelvin to celsius is easy: Just subtract 273.15.
+// Or looking at the API documentation, if you add &units=metric to your request, you'll get back celsius.
