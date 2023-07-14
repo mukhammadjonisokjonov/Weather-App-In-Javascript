@@ -68,11 +68,11 @@ body {
 }
 
 .weather-body img {
-    width: 60%;
+    width: 61%;
 }
 
 .weather-box {
-    margin-block: 20px;
+    margin-block: 22px;
     text-align: center;
 }
 
@@ -83,7 +83,7 @@ body {
 }
 
 .weather-box .temperature sup {
-    font-size: 20px;
+    font-size: 21px;
     position: absolute;
     font-weight: 600;
 }
